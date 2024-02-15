@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 function Video() {
   const dispatch = useDispatch();
-  const videos = useSelector(state => state.videos);  // Add this line
+  const videos = useSelector(state => state.videos); 
 
   useEffect(() => {
     const fetchVideos = async () => {
